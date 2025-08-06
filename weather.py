@@ -199,5 +199,6 @@ but.bind("<Button-1>", fetchdata)
 weather_frame = Frame(sf, highlightbackground="white", highlightthickness=4)
 weather_frame.pack(pady=(20, 10))
 forecast_frame = Frame(sf)
-forecast_frame.pack(pady=(20, 10))
+forecast_frame.pack(pady=(20, 15))
 root.mainloop()
+
